@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:item, nbt={Item: {tag: {selected:1}}}] at @s positioned ~ ~-.5 ~ run kill @e[limit=1, sort=nearest, nbt=!{Item: {tag: {selector:1}}}]

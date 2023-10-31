@@ -1,0 +1,1 @@
+tellraw @a {"text": "🛈 mgct loaded!", "color": "green", "bold": true}

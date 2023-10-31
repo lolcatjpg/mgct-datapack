@@ -1,0 +1,1 @@
+give @p minecraft:name_tag{display:{Name:'{"text": "🖍 mgct selector", "color": "light_purple", "italic": false}'}, selected:0, selector:1} 64

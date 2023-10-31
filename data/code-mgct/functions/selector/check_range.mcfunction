@@ -1,0 +1,1 @@
+execute unless entity @e[type=minecraft:item, nbt={Item: {tag: {selected:1}}}, distance=..5] run tellraw @s {"text": "⚠ Nothing within 5 blocks range is selected", "color": "red"}

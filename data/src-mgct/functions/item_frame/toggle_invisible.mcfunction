@@ -12,3 +12,4 @@ tag @s remove src-mgct+item_frame+invisible+disable
 
 # feedback + deselect
 tellraw @a[distance=..10] {"text": "🔧 Item frame invisibility toggled", "color": "green"}
+playsound minecraft:entity.item_frame.remove_item block @a[distance=..5] ~ ~ ~ 1 1.3

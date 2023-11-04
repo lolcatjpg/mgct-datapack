@@ -2,9 +2,9 @@
 execute as @e[limit=1, sort=nearest, nbt=!{Item: {tag: {selector:1}}}] run tag @s add src-mgct+selected
 execute as @e[limit=1, sort=nearest, nbt=!{Item: {tag: {selector:1}}}] run data modify entity @s Glowing set value 1
 
-# ride selected entity and make unpickuppable
+# ride selected entity and make unpickuppable and glowing
 ride @s mount @e[limit=1, sort=nearest, nbt=!{Item: {tag: {selector:1}}}]
-data merge entity @s {Item: {tag: {selected:1}}, PickupDelay: 32767}
+data merge entity @s {Item: {tag: {selected:1}}, PickupDelay: 32767, Glowing: 1}
 
 
 # feedback

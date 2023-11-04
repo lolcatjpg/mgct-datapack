@@ -8,6 +8,6 @@ data merge entity @s {Item: {tag: {selected:1}}, PickupDelay: 32767, Glowing: 1}
 
 
 # feedback
-tellraw @a[distance=..5] {"text": "🛈 Selector now appears above selected entity", "color": "aqua"}
-tellraw @a[distance=..5] {"text": "You must be within 5 blocks range to execute commands with the selector", "color": "yellow"}
+tellraw @a[distance=..5] {"text": "🛈 Entity selected", "color": "aqua"}
+tellraw @a[distance=..5] {"text": "You must be within 5 blocks range to execute commands on the selected entity", "color": "yellow"}
 playsound minecraft:entity.item_frame.add_item block @a[distance=..5] ~ ~ ~ 1 1.3

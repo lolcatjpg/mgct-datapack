@@ -1,0 +1,2 @@
+tellraw @p [{"text": "\nselection management:", "color": "gray"}]
+tellraw @p [{"text": "   "}, {"text": " [➕ give new selectors] ", "color": "green", "clickEvent": {"action": "run_command", "value": "/function mgct:selector/give"}}, {"text": " [🗑 clear selection] ", "color": "red", "clickEvent": {"action": "run_command", "value": "/function mgct:selector/deselect"}}]

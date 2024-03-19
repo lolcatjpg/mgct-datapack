@@ -1,2 +1,2 @@
 tellraw @p [{"text": "\nfunctions for §oitem frame§r:", "color": "gray"}]
-tellraw @p [{"text": "   "}, {"text": " [toggle fixed] ", "color": "aqua", "clickEvent": {"action": "run_command", "value": "/function mgct:item_frame/fixed"}}, {"text": " [toggle invisible] ", "color": "aqua", "clickEvent": {"action": "run_command", "value": "/function mgct:item_frame/invisible"}}]
+tellraw @p [{"text": "   "}, {"text": " [🔧 toggle fixed] ", "color": "aqua", "clickEvent": {"action": "run_command", "value": "/function mgct:item_frame/fixed"}}, {"text": " [🔧 toggle invisible] ", "color": "aqua", "clickEvent": {"action": "run_command", "value": "/function mgct:item_frame/invisible"}}]

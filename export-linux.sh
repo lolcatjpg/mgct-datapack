@@ -1,0 +1,1 @@
+zip ~/Desktop/mgct.zip *

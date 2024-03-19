@@ -1,1 +1,1 @@
-zip ~/Desktop/mgct.zip *
+zip -r ~/Desktop/mgct.zip *

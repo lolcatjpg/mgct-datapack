@@ -3,5 +3,6 @@ x invisible
 x base plate
 x no gravity
 x small
-- show arms
+x show arms
+- straighten arms
 - tp (using suggest command)

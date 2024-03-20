@@ -1,8 +1,0 @@
-x rotate (/execute as @e[tag=src-mgct+selected, distance=..5] at @s run tp @s ~ ~ ~ ~90 ~)
-x invisible
-x base plate
-x no gravity
-x small
-x show arms
-x straighten arms  {Pose:{LeftArm:[0f, 0f, 0f], RightArm:[0f, 0f, 0f]}}
-x tp (using suggest command)

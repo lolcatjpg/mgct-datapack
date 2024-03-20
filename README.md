@@ -2,11 +2,7 @@
 
 a datapack with some useful tools for Minecraft creative mode.
 
-currently includes:
-
-- tools for item frames
-  - fix in place
-  - make invisible
+![Screenshot_20240320_230415](https://github.com/lolcatjpg/mgct-datapack/assets/66800621/da07991c-6bc2-4aad-bc49-e26ee5818825)
 
 ## quickstart
 
@@ -15,6 +11,10 @@ run `/function menu-mgct` to get started!
 everything can be done via the menu as well as commands.
 further instructions can be found in [the wiki](https://github.com/lolcatproductions/mgct-datapack/wiki)
 
+
+> [!NOTE]
+> you must have operator privileges to use this datapack
+
 ## demo
 
-<https://github.com/lolcatproductions/mgct-datapack/assets/66800621/9e2d6bf2-72ef-4aed-a91a-801db2080d53>
+[demo 1](https://youtu.be/_z_NO68f8Sg) | [demo 2](https://youtu.be/A0Jl2NMpil0) | [demo 3](https://youtu.be/0axR7XgEd0w)

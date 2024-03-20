@@ -1,0 +1,2 @@
+tellraw @p [{"text": "\nfunctions for §oarmor stand§r:", "color": "gray"}]
+tellraw @p [{"text": "   "}, {"text": " [⏩ rotate clockwise] ", "color": "aqua", "clickEvent": {"action": "run_command", "value": "/function mgct:armor_stand/rotate/cw"}}, {"text": " [⏩ rotate counterclockwise] ", "color": "aqua", "clickEvent": {"action": "run_command", "value": "/function mgct:armor_stand/rotate/ccw"}}]

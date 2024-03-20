@@ -2,6 +2,7 @@ tellraw @p [{"text": "\n======== mgct menu ========"}]
 
 # entity-specific commands
 execute if entity @e[type=#mgct:group/item_frame, distance=..5, tag=src-mgct+selected] run function mgct:menu/item_frame
+execute if entity @e[type=minecraft:armor_stand, distance=..5, tag=src-mgct+selected] run function mgct:menu/armor_stand
 
 # general commands
 function mgct:menu/general

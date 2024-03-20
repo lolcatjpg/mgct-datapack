@@ -1,7 +1,7 @@
 x rotate (/execute as @e[tag=src-mgct+selected, distance=..5] at @s run tp @s ~ ~ ~ ~90 ~)
 x invisible
-- base plate
+x base plate
 x no gravity
-- small
+x small
 - show arms
 - tp (using suggest command)

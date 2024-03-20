@@ -4,6 +4,10 @@ a datapack with some useful tools for Minecraft creative mode.
 
 ![Screenshot_20240320_230415](https://github.com/lolcatjpg/mgct-datapack/assets/66800621/da07991c-6bc2-4aad-bc49-e26ee5818825)
 
+## downloading
+you can find the latest release on the releases page
+or you can download this repo. the folder in the zip file is the datapack.
+
 ## quickstart
 
 run `/function menu-mgct` to get started!

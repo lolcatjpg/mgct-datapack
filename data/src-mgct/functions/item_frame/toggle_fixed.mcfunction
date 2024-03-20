@@ -11,5 +11,5 @@ tag @s remove src-mgct+item_frame-fixed-enable
 tag @s remove src-mgct+item_frame-fixed-disable
 
 # feedback
-tellraw @a[distance=..10] {"text": "🔧 Item frame fixation toggled", "color": "green"}
+tellraw @a[distance=..10] {"text": "🔧 Fixation toggled", "color": "green"}
 playsound minecraft:entity.item_frame.remove_item block @a[distance=..5] ~ ~ ~ 1 1.3

@@ -1,5 +1,5 @@
 x rotate (/execute as @e[tag=src-mgct+selected, distance=..5] at @s run tp @s ~ ~ ~ ~90 ~)
-- invisible
+m invisible
 - base plate
 - no gravity
 - small

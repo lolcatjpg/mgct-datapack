@@ -4,5 +4,5 @@ x base plate
 x no gravity
 x small
 x show arms
-- straighten arms
+- straighten arms  {Pose:{LeftArm:[0f, 0f, 0f], RightArm:[0f, 0f, 0f]}}
 - tp (using suggest command)

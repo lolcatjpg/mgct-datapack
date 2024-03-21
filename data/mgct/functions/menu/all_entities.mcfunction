@@ -1,5 +1,7 @@
 tellraw @p [{"text": "\nfunctions for all entities:", "color": "gray"}]
 
+# custom name visible
+tellraw @p [{"text": "   "}, {"text": " [🔧 toggle custom name visible] ", "color": "aqua", "clickEvent": {"action": "run_command", "value": "/function mgct:all_entities/toggle_custom_name_visible"}}]
 # kill
 tellraw @p [{"text": "   "}, {"text": " [❌ kill] ", "color": "red", "clickEvent": {"action": "run_command", "value": "/function src-mgct:all_entities/kill_confirm"}}]
 

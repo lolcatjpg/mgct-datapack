@@ -10,8 +10,6 @@ tellraw @p [{"text": "   "}, {"text": " [🔧 toggle invisible] ", "color": "aqu
 tellraw @p [{"text": "   "}, {"text": " [🔧 toggle no gravity] ", "color": "aqua", "clickEvent": {"action": "run_command", "value": "/function mgct:armor_stand/toggle_no_gravity"}}, {"text": " [🔧 toggle small] ", "color": "aqua", "clickEvent": {"action": "run_command", "value": "/function mgct:armor_stand/toggle_small"}}]
 # arms, baseplate
 tellraw @p [{"text": "   "}, {"text": " [🔧 toggle arms] ", "color": "aqua", "clickEvent": {"action": "run_command", "value": "/function mgct:armor_stand/toggle_arms"}}, {"text": " [🔧 toggle base plate] ", "color": "aqua", "clickEvent": {"action": "run_command", "value": "/function mgct:armor_stand/toggle_base_plate"}}]
-# custom name visible
-tellraw @p [{"text": "   "}, {"text": " [🔧 toggle custom name visible] ", "color": "aqua", "clickEvent": {"action": "run_command", "value": "/function mgct:armor_stand/toggle_custom_name_visible"}}]
 
 # template: move
 tellraw @p [{"text": "   "}, {"text": " [📝 move] ", "color": "blue", "clickEvent": {"action": "run_command", "value": "/function mgct:armor_stand/command_templates/move"}, "hoverEvent": {"action": "show_text", "contents": "§oCommand template§r"}}]

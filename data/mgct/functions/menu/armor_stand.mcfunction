@@ -13,5 +13,5 @@ tellraw @p [{"text": "   "}, {"text": " [🔧 toggle arms] ", "color": "aqua", "
 # custom name visible
 tellraw @p [{"text": "   "}, {"text": " [🔧 toggle custom name visible] ", "color": "aqua", "clickEvent": {"action": "run_command", "value": "/function mgct:armor_stand/toggle_custom_name_visible"}}]
 
-# template: move, custom name
-tellraw @p [{"text": "   "}, {"text": " [📝 move] ", "color": "blue", "clickEvent": {"action": "run_command", "value": "/function mgct:armor_stand/command_templates/move"}, "hoverEvent": {"action": "show_text", "contents": "§oCommand template§r"}}, {"text": " [📝 set custom name] ", "color": "blue", "clickEvent": {"action": "run_command", "value": "/function mgct:armor_stand/command_templates/set_custom_name"}, "hoverEvent": {"action": "show_text", "contents": "§oCommand template§r"}}]
+# template: move
+tellraw @p [{"text": "   "}, {"text": " [📝 move] ", "color": "blue", "clickEvent": {"action": "run_command", "value": "/function mgct:armor_stand/command_templates/move"}, "hoverEvent": {"action": "show_text", "contents": "§oCommand template§r"}}]

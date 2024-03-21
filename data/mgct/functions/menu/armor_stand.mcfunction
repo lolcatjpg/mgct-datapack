@@ -11,5 +11,5 @@ tellraw @p [{"text": "   "}, {"text": " [🔧 toggle no gravity] ", "color": "aq
 # arms, baseplate
 tellraw @p [{"text": "   "}, {"text": " [🔧 toggle arms] ", "color": "aqua", "clickEvent": {"action": "run_command", "value": "/function mgct:armor_stand/toggle_arms"}}, {"text": " [🔧 toggle base plate] ", "color": "aqua", "clickEvent": {"action": "run_command", "value": "/function mgct:armor_stand/toggle_base_plate"}}]
 
-# template: move
-tellraw @p [{"text": "   "}, {"text": " [📝 move] ", "color": "blue", "clickEvent": {"action": "run_command", "value": "/function mgct:armor_stand/command_templates/move"}, "hoverEvent": {"action": "show_text", "contents": "§oCommand template§r"}}]
+# template: move, rotate
+tellraw @p [{"text": "   "}, {"text": " [📝 move] ", "color": "blue", "clickEvent": {"action": "run_command", "value": "/function mgct:armor_stand/command_templates/move"}, "hoverEvent": {"action": "show_text", "contents": "§oCommand template§r"}}, {"text": " [📝 rotate] ", "color": "blue", "clickEvent": {"action": "run_command", "value": "/function mgct:armor_stand/command_templates/rotate"}, "hoverEvent": {"action": "show_text", "contents": "§oCommand template§r"}}]
